@@ -25,6 +25,7 @@ import plotly.express as px
 
 ### Task1:
 ### Load the 'penguins_pimped.csv' file into a data frame df
+### (it is under the folder /data/ )
 ### Print out 5 random sample from df 
 ### (Hint: apply the function sample() on df)
 
