@@ -11,7 +11,7 @@
 
    Mode:
    Work in group.
-   One share the screen and the other team components suggest what to type
+   
 """
 
 ### Import libraries
