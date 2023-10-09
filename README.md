@@ -1,36 +1,41 @@
-# Hi Binomials happy to be here today
-## Installing streamlit in a conda env
+# Hi Saffron happy to be here today
 
-In your terminal type:
 
-```bash
-conda create --name streamlit_env 
-```
 
-To use streamlit_env:
+1. **Create a Virtual Environment:**
+You can use venv
 
 ```bash
-conda activate streamlit_env
+python -m venv streamlit_env
 ```
+This command creates a virtual environment named streamlit_env.
 
-To install streamlit:
+2. **Activate the Virtual Environment**:
+On Windows:
 
 ```bash
-conda install -c conda-forge streamlit
+.\streamlit_env\Scripts\activate.ps1
 ```
-
-To install further library:
+On macOS and Linux:
 
 ```bash
-conda install -c conda-forge --file requirements.txt
+source streamlit_env/bin/activate
 ```
 
-To check that everything works properly:
+3. **Install Streamlit and Additional Libraries:**
+Inside the activated virtual environment, you can use pip to install Streamlit and any other libraries:
 
+```bash
+pip install -r requirements.txt
+```
+
+4. **Test Streamlit Installation:**
+You can check if Streamlit is installed correctly and run a sample app with the following command:
 ```bash
 streamlit hello
 ```
-(it should pop up a streamlit web app in your browser)
+This should open a Streamlit web app in your default web browser.
+
 
 ## Data analysis excercise on penguins
 **Business goal:**
