@@ -5,9 +5,9 @@
 
    Usage:
    After each task save the script and run the python script from the terminal.
-   Be sure you are in the streamlit_env conda environment.
+   Be sure you are in the streamlit_env environment.
    If not activate the environment by typing in the terminal
-   conda activate streamlit_env
+   source streamlit_env/bin/activate
 
    Mode:
    Work in group.
@@ -29,26 +29,26 @@ import plotly.express as px
 ### Print out 5 random sample from df 
 ### (Hint: apply the function sample() on df)
 
-df = ...
-df_sample = ...
+df = pd.read_csv("./data/penguins_pimped.csv")
+df_sample = df.sample(n=5)
 
-print(df_sample)
+print(df_sample.columns)
 
 ### Task2:
 ### 2.1 Determine which unique islands are present in the data
 
-island = ...
+island = df['island'].unique()
 
 print(island)
 
 ### 2.2 Display the data for an island you choose from the dataframe 
 
-my_island = '...'
+my_island = 'Dream'
 
 # uncomment line 49 and line 51
-#my_island_df = df[df[...] == ...]
+my_island_df = df[df['island'] == my_island]
 
-#print(my_island_df.head())
+print(my_island_df.head())
 
 
 
@@ -58,16 +58,16 @@ my_island = '...'
 
 # uncomment from 61 to 70
 
-# fig, ax = plt.subplots()
-# ax = sns.scatterplot(
-#     data=...,
-#     x=...,
-#     y=...,
-#     hue='species' # set to species
-#     )
+fig, ax = plt.subplots()
+ax = sns.scatterplot(
+    data=df,
+    x='bill_length_mm',
+    y='bill_depth_mm',
+    hue='species' # set to species
+    )
 
-# plt.show()
-# plt.close(fig)
+plt.show()
+plt.close(fig)
 
 ### Click on X in the figure-window that pop up
 
@@ -75,5 +75,5 @@ my_island = '...'
 ### Task4
 ### Determine the average of the bill_length_mm by species
 
-bill_length_mean = ...
+bill_length_mean = df.groupby(by='species')['bill_length_mm'].mean()
 print(bill_length_mean)
