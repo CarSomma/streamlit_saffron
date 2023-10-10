@@ -1,4 +1,5 @@
 streamlit
+watchdog
 scikit-learn
 pandas
 matplotlib

@@ -21,11 +21,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 
-## Data exploration 
+## Data exploration
 
 ### Task1:
 ### Load the 'penguins_pimped.csv' file into a data frame df
-### (it is under the folder /data/ )
+### (it is under the folder data/ )
 ### Print out 5 random sample from df 
 ### (Hint: apply the function sample() on df)
 
@@ -35,7 +35,7 @@ df_sample = ...
 print(df_sample)
 
 ### Task2:
-### 2.1 Determine which islands are present in the data
+### 2.1 Determine which unique islands are present in the data
 
 island = ...
 
@@ -45,28 +45,31 @@ print(island)
 
 my_island = '...'
 
-my_island_df = df[df[...] == ...]
+# uncomment line 49 and line 51
+#my_island_df = df[df[...] == ...]
 
-print(my_island_df.head())
+#print(my_island_df.head())
+
 
 
 ### Task3
 ### Plotting
-### Display a scatterplot: bill_length_mm vs bill_depth
+### Display a scatterplot: bill_length_mm vs bill_depth_mm
 
-fig, ax = plt.subplots()
-ax = sns.scatterplot(
-    data=...,
-    x=...,
-    y=...,
-    hue='sex' # set to sex
-    )
+# uncomment from 61 to 70
 
-plt.show()
-plt.close(fig)
+# fig, ax = plt.subplots()
+# ax = sns.scatterplot(
+#     data=...,
+#     x=...,
+#     y=...,
+#     hue='species' # set to species
+#     )
+
+# plt.show()
+# plt.close(fig)
 
 ### Click on X in the figure-window that pop up
-
 
 
 ### Task4
@@ -74,6 +77,3 @@ plt.close(fig)
 
 bill_length_mean = ...
 print(bill_length_mean)
-
-
-
