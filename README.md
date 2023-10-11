@@ -51,4 +51,4 @@ Afterward we will create out of that a nice report using Streamlit.
 
 Use an editor (e.g., Vscode) to open the file predict.py under the folder pages. Read the TODO doc string at the beginning of the file. 
 
-Afterward we will use implement predictions given user inputs in the Streamlit app.
+Afterward we will implement predictions given user inputs in the Streamlit app.
