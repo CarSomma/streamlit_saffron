@@ -21,43 +21,42 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 
-## Data exploration
+# Let's give a title
+st.title("Funfact about penguins🐧")
 
-### Task1:
-### Load the 'penguins_pimped.csv' file into a data frame df
-### (it is under the folder data/ )
-### Print out 5 random sample from df 
-### (Hint: apply the function sample() on df)
-
+# Let's add an image
+st.image('penguins.png')
+st.markdown("This is the [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/) dataset that describes measurements on penguins")
+st.markdown("---")
+## Let's create a section about data
 df = pd.read_csv("./data/penguins_pimped.csv")
 df_sample = df.sample(n=5)
 
-print(df_sample.columns)
+st.header("Penguins 🐧 data")
+st.dataframe(df_sample)
+st.markdown("**-->Here you can describe your data<--**")
 
-### Task2:
-### 2.1 Determine which unique islands are present in the data
+
+
+### Let's give a user the possibility to select island and filter dataframe
+### To create a subsection
+st.subheader("Let's play with the data")
 
 island = df['island'].unique()
 
-print(island)
-
-### 2.2 Display the data for an island you choose from the dataframe 
-
-my_island = 'Dream'
-
-# uncomment line 49 and line 51
-my_island_df = df[df['island'] == my_island]
-
-print(my_island_df.head())
+### Dropdown menu
+user_island = st.selectbox(label="Select an Island",options=island)
 
 
+### Check box
+if st.checkbox("Do you really want to see the filtered data according to your island?"):
+    st.dataframe(df[df['island'] == user_island])
 
-### Task3
-### Plotting
-### Display a scatterplot: bill_length_mm vs bill_depth_mm
+st.markdown("---")
 
-# uncomment from 61 to 70
-
+## Display a scatterplot: bill_length_mm vs bill_depth_mm
+st.header("Showing  🐧 cases with matplotlib, seaborn and plotly")
+st.subheader("🐧 Matplotlib + Seaborn")
 fig, ax = plt.subplots()
 ax = sns.scatterplot(
     data=df,
@@ -65,15 +64,27 @@ ax = sns.scatterplot(
     y='bill_depth_mm',
     hue='species' # set to species
     )
+st.pyplot(fig)
 
-plt.show()
-plt.close(fig)
+st.subheader("🐧 Plotly")
+plotly_fig = px.scatter(
+    data_frame=df,
+    x='bill_length_mm',
+    y='bill_depth_mm',
+    color='species',
+    animation_frame='sex',
+)
 
-### Click on X in the figure-window that pop up
+st.plotly_chart(plotly_fig)
 
 
-### Task4
 ### Determine the average of the bill_length_mm by species
-
+st.subheader("🐧 Barchart")
 bill_length_mean = df.groupby(by='species')['bill_length_mm'].mean()
-print(bill_length_mean)
+
+st.bar_chart(bill_length_mean)
+
+
+### Plotting a map
+st.subheader("🐧 Maps 🗺️📍")
+st.map(df)
