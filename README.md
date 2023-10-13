@@ -1,5 +1,8 @@
-# Hi Saffron happy to be here today
-
+# Hi Saffron happy to be here today with Streamlit
+Streamlit is a free and open-source framework to rapidly build and share beautiful machine learning and data science web apps.
+It is a Python-based library specifically designed for data science teams. 
+Background in Front end and Back end development is not required.
+For more information, [visit](https://docs.streamlit.io).
 1. **Create a Virtual Environment:**
 You can use venv
 
