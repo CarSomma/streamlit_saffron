@@ -5,7 +5,6 @@ The model predicts the body_mass_g given the input features flipper_length_mm, s
 import pickle
 import streamlit as st
 import pandas as pd
-import time
 
 # load the model
 with open("pages/model_penguins.pkl", "rb") as file:
