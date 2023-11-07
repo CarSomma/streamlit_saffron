@@ -8,9 +8,9 @@ Before we start, ensure you are working within your Streamlit environment. If no
 
 ```bash
 # Mac/Linux user
-source streamlit_env/bin/activate
+source .streamlit_env/bin/activate
 # Windows user
-.\streamlit_env\Scripts\activate.ps1 
+.\.streamlit_env\Scripts\activate.ps1 
 ```
 
 ## Task 2: Import Libraries
@@ -47,7 +47,7 @@ Load the penguins dataset and display a sample:
 # Load the penguins dataset
 df = pd.read_csv("./data/penguins_pimped.csv")
 
-# Display a sample of the dataset
+# Display a sample of 5 random observations in the dataset
 df_sample = df.sample(n=5)
 st.header("Penguins 🐧 data")
 st.dataframe(df_sample)

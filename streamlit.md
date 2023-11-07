@@ -29,7 +29,7 @@ The following  is based on the official [Streamlit documentation source](https:/
 - Examples include:
   - Slider: `x = st.slider('x')`
   - Button: `st.button('Press me!')`
-  - Select Box: `option = st.selectbox('Choose an option', ['Option A', 'Option B', 'Option C'])`
+  - Select Box: `option = st.selectbox(label="Select an Island", options=['Dream','Torgersen', 'Biscoe']`
 
 ## Layout
 
