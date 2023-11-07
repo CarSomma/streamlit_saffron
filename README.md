@@ -1,8 +1,7 @@
-# 🐧 Streamlit Web-App 
-This repo will guide us on building a 📊🧑🏽‍🔬DataScience Web Application 🧑🏽‍🔬📊 based on [Streamlit](streamlit.md) is a free and open-source framework to rapidly build and share beautiful machine learning and data science web apps.
-It is a Python-based library specifically designed for data science teams. 
-Background in Front-end and Back-end development is not required.
-For more information, [visit](https://docs.streamlit.io).
+# Learning Streamlit with Penguins 🐧 
+In the Pythonic 🐍 realm of data and machine learning web application frameworks Streamlit has been acquiring quite a lot of popularity. In fact, Streamlit is designed to be incredibly user-friendly. You can create interactive web apps with just a few lines of Python code. It abstracts away much of the complexity involved in web development, making it accessible even to those without a strong web development background. 
+
+This repo will guide you on building a 📊🧑🏽‍🔬DataScience Web Application 🧑🏽‍🔬📊 based on [Streamlit](streamlit.md).
 
 ## Environment 🌀 and Installation 👩🏽‍🔧👨🏽‍🔧
 For __MacOs__/__Linux__ users
