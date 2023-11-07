@@ -45,7 +45,7 @@ This should open a Streamlit web app in your default web browser.
 
 Use an editor (e.g., Vscode) to open the file penguins_excercise.py. Read the TODO doc string at the beginning of the file. 
 
-Afterward we will create out of that a nice report using Streamlit.
+Afterward we will create out of that a nice [report](penguins_st_tutorial.md) using Streamlit.
 
 ## Model prediction on penguins
 **Business goal:**
