@@ -1,7 +1,14 @@
 # Learning Streamlit with Penguins 🐧 
-In the Pythonic 🐍 realm of data and machine learning web application frameworks Streamlit has been acquiring quite a lot of popularity. In fact, Streamlit is designed to be incredibly user-friendly. You can create interactive web apps with just a few lines of Python code. It abstracts away much of the complexity involved in web development, making it accessible even to those without a strong web development background. 
+In the Pythonic 🐍 realm of data and machine learning web application frameworks Streamlit has been acquiring quite a lot of popularity. In fact, Streamlit is designed to be incredibly user-friendly. You can create interactive web apps with just a few lines of Python code. It abstracts away much of the complexity involved in web development, making it accessible even to those without a web development background. 
 
-This repo will guide you on building a 📊🧑🏽‍🔬DataScience Web Application 🧑🏽‍🔬📊 based on [Streamlit](streamlit.md).
+This repo will guide us step-by-step on building a 📊🧑🏽‍🔬DataScience Web Application 🧑🏽‍🔬📊 based on [Streamlit](streamlit.md). 
+
+__Steps 🪜 🎯👷🏽‍♀️:__
+1. [Setting up a python environment 🐍](README.md#environment-🌀-and-installation-👩🏽‍🔧👨🏽‍🔧)
+2. [🔥🔥 Warm-Up Exercise 🔥🔥 on EDA 📊🌈
+3. 🔥🔥 Warm-Up Exercise 🔥🔥 on Deploy a Machine-Learning Model 🎓🤖
+4. 
+
 
 ## Environment 🌀 and Installation 👩🏽‍🔧👨🏽‍🔧
 For __MacOs__/__Linux__ users
@@ -37,10 +44,10 @@ You can check if Streamlit is installed correctly and run a sample app with the 
 ```bash
 streamlit hello
 ```
-This should open a Streamlit web app in your default web browser.
+This should open a Streamlit web app in your default web browser 🎉. 
 
 
-## Data analysis excercise on penguins
+## Data Analysis excercise on penguins
 **Business goal:**
 
 *Our marketing team would love to know about the penguins 🐧*
