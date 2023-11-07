@@ -27,7 +27,7 @@ The following  is based on the official [Streamlit documentation source](https:/
 
 - Widgets are used to capture user input and display results.
 - Examples include:
-  - Slider: `x = st.slider('x')`
+  - Slider: `x = st.slider('Select a flipper length',min_value=160,max_value=240,step=5)`
   - Button: `st.button('Press me!')`
   - Select Box: `option = st.selectbox(label="Select an Island", options=['Dream','Torgersen', 'Biscoe']`
 

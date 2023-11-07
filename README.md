@@ -1,36 +1,39 @@
-# Hi Saffron happy to be here today with Streamlit
-Streamlit is a free and open-source framework to rapidly build and share beautiful machine learning and data science web apps.
+# 🐧 Streamlit Web-App 
+This repo will guide us on building a 📊🧑🏽‍🔬DataScience Web Application 🧑🏽‍🔬📊 based on [Streamlit](streamlit.md) is a free and open-source framework to rapidly build and share beautiful machine learning and data science web apps.
 It is a Python-based library specifically designed for data science teams. 
-Background in Front end and Back end development is not required.
+Background in Front-end and Back-end development is not required.
 For more information, [visit](https://docs.streamlit.io).
-1. **Create a Virtual Environment:**
-You can use venv
 
+## Environment 🌀 and Installation 👩🏽‍🔧👨🏽‍🔧
+For __MacOs__/__Linux__ users
 ```bash
-python -m venv streamlit_env
-```
-This command creates a virtual environment named streamlit_env.
-
-2. **Activate the Virtual Environment**:
-On Windows:
-
-```bash
-.\streamlit_env\Scripts\activate.ps1
-```
-On macOS and Linux:
-
-```bash
-source streamlit_env/bin/activate
-```
-
-3. **Install Streamlit and Additional Libraries:**
-Inside the activated virtual environment, you can use pip to install Streamlit and any other libraries:
-
-```bash
+# Sets the local Python version to 3.11.6 using pyenv
+pyenv local 3.11.6 
+# Create a Virtual Environment named .streamlit_env using venv
+python -m venv .streamlit_env
+# Activate the Virtual Environment
+source .streamlit_env/bin/activate
+# Install Streamlit and Additional Libraries
 pip install -r requirements.txt
 ```
 
-4. **Test Streamlit Installation:**
+For __Windows__ users
+
+
+```bash
+# Sets the local Python version to 3.11.6 using pyenv
+pyenv local 3.11.6 
+# Create a Virtual Environment named .streamlit_env using venv
+python -m venv .streamlit_env
+# Activate the Virtual Environment
+.streamlit_env\Scripts\Activate.ps1
+# Install Streamlit and Additional Libraries
+pip install -r requirements.txt
+```
+
+
+
+### 🧪 Test Streamlit Installation 👨🏽‍🔧👩🏽‍🔧
 You can check if Streamlit is installed correctly and run a sample app with the following command:
 ```bash
 streamlit hello
