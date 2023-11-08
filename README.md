@@ -6,7 +6,7 @@ This repo will guide us step-by-step on building a 📊🧑🏽‍🔬DataScienc
 __🗿 Milestones 🪜 🎯👷🏽‍♀️__:
 1. [Setting up a python environment 🐍](README.md#environment-🌀-and-installation-👩🏽‍🔧👨🏽‍🔧)
 2. [🔥🔥 2 Warm-Up Exercises 🔥🔥 on EDA 📊🌈 and  Deploy a Machine-Learning Model 🎓🤖](warmup_exercises/README.md)
-3. [⚡️📚 Quick Reading on Streamlit ⚡️📚](streamlit_excercise/streamlit.md)
+3. [⚡️📚 Quick Reading on Streamlit ⚡️📚](streamlit_exercise/streamlit.md)
 4. [Building a 🐧 Web-App with Streamlit: PART I](streamlit_exercise/penguins_st_tutorial.md)
 5. [Building a 🐧 Web-App with Streamlit: PART II](streamlit_exercise/penguins_st_tutorial.md)
 
