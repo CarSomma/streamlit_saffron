@@ -6,7 +6,7 @@ This repo will guide us step-by-step on building a 📊🧑🏽‍🔬DataScienc
 __Steps 🪜 🎯👷🏽‍♀️:__
 1. [Setting up a python environment 🐍](README.md#environment-🌀-and-installation-👩🏽‍🔧👨🏽‍🔧)
 2. [🔥🔥 2 Warm-Up Exercises 🔥🔥 on EDA 📊🌈 and  Deploy a Machine-Learning Model 🎓🤖](warmup_exercises/README.md)
-3. Reading on STreamlit]
+3. [⚡️📚 Quick Reading on Streamlit ⚡️📚]()
 
 
 ## Environment 🌀 and Installation 👩🏽‍🔧👨🏽‍🔧
