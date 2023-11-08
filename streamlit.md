@@ -3,7 +3,7 @@ The following  is based on the official [Streamlit documentation source](https:/
 
 
 - Streamlit is a Python library for creating interactive web apps for data science and machine learning.
-- You build apps by adding Streamlit commands to a Python script and running it with `streamlit run my_app`.
+- You build apps by adding Streamlit commands to a Python script and running it with `streamlit run my_app.py`.
 
 ## Development Flow
 
