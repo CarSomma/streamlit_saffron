@@ -5,10 +5,10 @@
 
    Usage:
               After each task save the script and run the python script from the terminal.
-              Be sure you are in the streamlit_env environment.
+              Be sure you are in the .streamlit_env environment.
               If not activate the environment by typing in the terminal
-              source streamlit_env/bin/activate (Mac/Linux)
-              .\streamlit_env\Scripts\activate.ps1 (Windows)
+              source .streamlit_env/bin/activate (Mac/Linux)
+              .streamlit_env\Scripts\Activate.ps1 (Windows)
 
    Mode:
    Work in group.
@@ -46,7 +46,7 @@ print(island)
 
 my_island = ...
 
-# uncomment line 49 and line 51
+# uncomment line 50 and line 52
 #my_island_df = df[df[...] == ...]
 
 #print(my_island_df.head())
@@ -57,7 +57,7 @@ my_island = ...
 ### Plotting
 ### Display a scatterplot: bill_length_mm vs bill_depth_mm
 
-# uncomment from 61 to 70
+# uncomment from 62 to 71
 
 # fig, ax = plt.subplots()
 # ax = sns.scatterplot(

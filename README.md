@@ -1,13 +1,14 @@
 # Learning Streamlit with Penguins 🐧 
 In the Pythonic realm 🐍👑  of data and machine learning web application frameworks Streamlit has been acquiring quite a lot of popularity. In fact, Streamlit is designed  to be incredibly user-friendly. You can create interactive web apps with just a few lines of Python code. It abstracts away much of the complexity involved in web development, making it accessible even to those without a web development background. 
 
-This repo will guide us step-by-step on building a 📊🧑🏽‍🔬DataScience Web Application 🧑🏽‍🔬📊 based on [Streamlit](streamlit.md). 
+This repo will guide us step-by-step on building a 📊🧑🏽‍🔬DataScience Web Application 🧑🏽‍🔬📊 based on Streamlit. 
 
-__Steps 🪜 🎯👷🏽‍♀️:__
+__🗿 Milestones 🪜 🎯👷🏽‍♀️__:
 1. [Setting up a python environment 🐍](README.md#environment-🌀-and-installation-👩🏽‍🔧👨🏽‍🔧)
 2. [🔥🔥 2 Warm-Up Exercises 🔥🔥 on EDA 📊🌈 and  Deploy a Machine-Learning Model 🎓🤖](warmup_exercises/README.md)
-3. [⚡️📚 Quick Reading on Streamlit ⚡️📚]()
-
+3. [⚡️📚 Quick Reading on Streamlit ⚡️📚](streamlit_excercise/streamlit.md)
+4.[Building a 🐧 Web-App with Sreamlit: PART I](streamlit_excercise/penguins_st_tutorial.md)
+5. [[Building a 🐧 Web-App with Sreamlit: PART II](streamlit_exercise/penguins_st_tutorial.md)]
 
 ## Environment 🌀 and Installation 👩🏽‍🔧👨🏽‍🔧
 For __MacOs__/__Linux__ users
@@ -43,23 +44,6 @@ You can check if Streamlit is installed correctly and run a sample app with the 
 ```bash
 streamlit hello
 ```
-This should open a Streamlit web app in your default web browser 🎉. 
+This should open a Streamlit web app in your default web browser. 
 
-
-## Data Analysis excercise on penguins
-**Business goal:**
-
-*Our marketing team would love to know about the penguins 🐧*
-
-Use an editor (e.g., Vscode) to open the file penguins_excercise.py. Read the TODO doc string at the beginning of the file. 
-
-Afterward we will create out of that a nice [report](penguins_st_tutorial.md) using Streamlit.
-
-## Model prediction on penguins
-**Business goal:**
-
-*Our scientific team would love to know how 'heavy' penguins 🐧 are given some input features*
-
-Use an editor (e.g., Vscode) to open the file predict.py under the folder pages. Read the TODO doc string at the beginning of the file. 
-
-Afterward we will implement predictions given user inputs in the Streamlit app.
+__🎉Congratulations🎉__. 
