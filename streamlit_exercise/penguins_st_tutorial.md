@@ -1,8 +1,14 @@
 # Streamlit Tutorial: Exploring the PenguinsPalmer Dataset
+🙌🏼 You made it so far 🛹 🗿!!! 
 
-This Streamlit tutorial guides you through creating an interactive data exploration app using the palmerpenguins dataset and is based on the [penguins exercise](README.md#data-analysis-excercise-on-penguins). Therefore, please make sure to complete first the penguins excercise, and  then follow the tasks step by step to build your app.
+You have:
++ Gained some basics 🔋 on [Streamlit](streamlit.md)
++ Recapped some basics on 📈📊 [EDA](../warmup_exercises/README.md#data-analysis-📈📊-on-palmerpenguins-🐧) with pandas/matplolib/seaborn
++ Recapped how to use a 🔮 [pretrained model](../warmup_exercises/README.md#model-prediction-🔮-on-palmerpenguins-🐧) with sklearn
 
-## Task 1: Environment Setup
+🥳🕰️ Time to build a 🐧 Web-App with Streamlit based on the [penguins exercise](../warmup_exercises/README.md#data-analysis-📈📊-on-palmerpenguins-🐧). 
+
+## Task 0: Environment Setup
 
 Before we start, ensure you are working within your Streamlit environment. If not, activate the environment with the following command:
 
@@ -10,7 +16,7 @@ Before we start, ensure you are working within your Streamlit environment. If no
 # Mac/Linux user
 source .streamlit_env/bin/activate
 # Windows user
-.\.streamlit_env\Scripts\activate.ps1 
+.streamlit_env\Scripts\Activate.ps1 
 ```
 
 ## Task 2: Import Libraries
@@ -28,7 +34,7 @@ import plotly.express as px
 ## Task 3: Title and Introduction
 
 Set a title for your Streamlit app and provide an introduction to the dataset:
-
+ 
 ```python
 # Set the title
 st.title("Funfact about penguins🐧")
