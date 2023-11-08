@@ -1,3 +1,4 @@
+# ignore unnecessary files
 .vscode
 .DS_STORE
 .ipy*
