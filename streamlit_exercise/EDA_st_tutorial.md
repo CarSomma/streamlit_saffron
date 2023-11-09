@@ -19,9 +19,9 @@ In the  __terminal__ type:
 ```bash
 streamlit run app.py
 ```
-🎉🥳 __You have build a streamlit [multipage web app](streamlit.md#multipage-apps)__ hosted locally 🥳🎉. You can now interact with  the web app at the url you find in the ouput of your terminal. 
+🎉🥳 __You have build a streamlit [multipage web app](streamlit.md#multipage-apps)__ hosted locally 🥳🎉 and the only trick is to run __app.py__ and  create a folder named __pages__ containing other python scripts. Building a server, routing and providing the user with a graphical interface are done by Streamlit under the hood. You don't need to have any knowledge of Back-End and Front-End. In this example, we have inserted only one python file, __predict.py__, within pages. Use your web browser to interact with the web app at the url you find in the ouput of your terminal. In the sidebar you can see two links: __app__ and __predict__ but still the web-app looks like an empty canvas. 
 
-## Task 2: Import Libraries
+## Task 3: Import Libraries
 
 Import the required libraries for your Streamlit app:
 
