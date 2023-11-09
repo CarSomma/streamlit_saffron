@@ -7,6 +7,9 @@ Two guided fill-in blank exercises come and help you to achieve your 2nd 🗿Mil
 1. [EDA](#data-analysis-📈📊-on-palmerpenguins-🐧)
 2. [Model Prediction](#model-prediction-🔮-on-palmerpenguins-🐧)
 
+For both exercise we use data based on the [palmerpenguins dataset](https://allisonhorst.github.io/palmerpenguins/).
+![](../streamlit_excercise/penguins.png)
+
 ## Data Analysis 📈📊 On PalmerPenguins 🐧
 __Business Goal 🎯__:
 
@@ -20,7 +23,7 @@ __Business Goal 🎯__:
 
 *Our scientific team would love to know how 'heavy' penguins 🐧 are given some input features*
 
-Use an editor (e.g., Vscode) to open the file predict.py under the folder pages. Read the __TODO__ doc string at the beginning of the file. 
+Use an editor (e.g., Vscode) to open the file predict.py. Read the __TODO__ doc string at the beginning of the file. 
 
 ## Next 🗿 Milestone
 Well done 🎉!!! It is time for some [reading 📚](../streamlit_exercise/streamlit.md) on Streamlit
