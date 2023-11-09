@@ -46,4 +46,9 @@ streamlit hello
 ```
 This should open a Streamlit web app in your default web browser. 
 
-__🎉Congratulations🎉__. 
+## Further Readings
+The following is a list of other popular python web framework:
++ [Flask](https://flask.palletsprojects.com/en/3.0.x/)
++ [Django](https://www.djangoproject.com)
++ [Dash](https://dash.plotly.com)
++ [FastAPI](https://fastapi.tiangolo.com)
