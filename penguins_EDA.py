@@ -1,5 +1,5 @@
 """TODO
-   Excercise: Explore the penguins pimped dataset :-) by following 
+   Exercise: Explore the penguins pimped dataset :-) by following 
    the tasks. The data exploration would be the base on which we build 
    the streamlit app.
 
@@ -7,8 +7,8 @@
               After each task save the script and run the python script from the terminal.
               Be sure you are in the streamlit_env environment.
               If not activate the environment by typing in the terminal
-              source streamlit_env/bin/activate (Mac/Linux)
-              .\streamlit_env\Scripts\activate.ps1 (Windows)
+              source .streamlit_env/bin/activate (Mac/Linux)
+              .streamlit_env\Scripts\Activate.ps1 (Windows)
 
    Mode:
    Work in group.

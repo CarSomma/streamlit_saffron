@@ -1,7 +1,0 @@
-streamlit
-watchdog
-scikit-learn==1.2.2
-pandas
-matplotlib
-seaborn
-plotly
