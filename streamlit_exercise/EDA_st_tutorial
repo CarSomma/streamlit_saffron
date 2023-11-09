@@ -8,16 +8,18 @@ You have:
 
 🥳🕰️ Time to build a 🐧 Web-App with Streamlit based on the [penguins exercise](../warmup_exercises/README.md#data-analysis-📈📊-on-palmerpenguins-🐧). 
 
-## Task 0: Environment Setup
 
-Before we start, ensure you are working within your Streamlit environment. If not, activate the environment with the following command:
+Before we start, ensure you have activated your [Streamlit environment](../README.md#environment-🌀-and-installation-👩🏽‍🔧👨🏽‍🔧).
 
+## Task 1: Create app.py 🐍
+In this folder 📁 create a file named app.py. If you want another name feel free to change it 🌶️🐠.
+
+## Task 2: Run app.py 🐍
+In the  __terminal__ type:
 ```bash
-# Mac/Linux user
-source .streamlit_env/bin/activate
-# Windows user
-.streamlit_env\Scripts\Activate.ps1 
+streamlit run app.py
 ```
+🎉🥳 __You have build a streamlit [multipage web app](streamlit.md#multipage-apps)__ hosted locally 🥳🎉. You can now interact with  the web app at the url you find in the ouput of your terminal. 
 
 ## Task 2: Import Libraries
 
