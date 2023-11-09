@@ -10,5 +10,5 @@ You know what makes a good DS WebApp 🌶️🐠, so for the __predict__ web pag
 3. Create a sidebar for user input. Use sliders and select boxes for flipper length, species, and sex
 4. Display the prediction result
 
-🎉Congratulations on creating your very own Penguin WebApp 🐧✨ It's impressive to see you set up a Multipage Streamlit app for EDA and predicting penguin body mass. 🚀👏
+🎉Congratulations on creating your very own Penguin WebApp 🐧✨. It's impressive to see you set up a Multipage Streamlit app for EDA and predicting penguin body mass. 🚀👏
 
