@@ -59,4 +59,5 @@ The following  is based on the official [Streamlit documentation source](https:/
 - User interactions and changes trigger script reruns.
 - Caching is used to optimize performance and speed up app responses.
 
-
+## Next 🗿 Milestone
+Well done 🎉!!! Time to start to build the [Streamlit App](EDA_st_tutorial.md)
