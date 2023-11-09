@@ -22,3 +22,5 @@ __Business Goal 🎯__:
 
 Use an editor (e.g., Vscode) to open the file predict.py under the folder pages. Read the __TODO__ doc string at the beginning of the file. 
 
+## Next 🗿 Milestone
+Well done 🎉!!! It is time for some [reading 📚](../streamlit_exercise/streamlit.md) on Streamlit
