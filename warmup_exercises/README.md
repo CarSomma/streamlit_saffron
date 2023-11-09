@@ -3,7 +3,7 @@ It is always worth to celebrate our achievements:
 
 __🎉Congrats for completing your 1st [🗿Milestone](../README.md#environment-🌀-and-installation-👩🏽‍🔧👨🏽‍🔧)🎉.__
 
-Two guided fill-in blank exercises come and help you 🛟 to achieve your 2nd 🗿Milestone:
+Two guided fill-in blank exercises come and help you to achieve your 2nd 🗿Milestone:
 1. [EDA](#data-analysis-📈📊-on-palmerpenguins-🐧)
 2. [Model Prediction](#model-prediction-🔮-on-palmerpenguins-🐧)
 
