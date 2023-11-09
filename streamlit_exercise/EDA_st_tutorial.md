@@ -131,4 +131,4 @@ st.subheader("🐧 Maps 🗺️📍")
 st.map(df)
 ```
 ## Next 🗿 Milestone
-🎉 You have transformed a python script into a streamlit app🎉. You will continue drawing 🎨 with streamlit but on the 🔮[__predict canvas__](predict_st_tutorial.md)
+🎉 You have transformed a python script into a Streamlit app 🎉. You will continue drawing 🎨 with Streamlit but on the 🔮[__predict canvas__](predict_st_tutorial.md)
