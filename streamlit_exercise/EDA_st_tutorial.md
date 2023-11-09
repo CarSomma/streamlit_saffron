@@ -1,4 +1,4 @@
-# Streamlit Tutorial: Exploring the PenguinsPalmer Dataset
+# Streamlit Tutorial: Exploring the PalmerPenguins Dataset
 🙌🏼 You made it so far 🛹 🗿!!! 
 
 You have:
