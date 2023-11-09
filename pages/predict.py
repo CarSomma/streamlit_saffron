@@ -1,6 +1,17 @@
-"""TODO
-Here we make predictions with the linear regression trained model (model_penguins.pkl). 
-The model predicts the body_mass_g given the input features flipper_length_mm, species and sex
+"""TODO 
+    Exercise: Make predictions with the linear regression trained model (model_penguins.pkl). 
+               The model predicts the body_mass_g 
+               given the input features 
+               flipper_length_mm, species and sex
+    Usage:
+               After each task save the script and run the python script from the terminal.
+               Be sure you are in the .streamlit_env environment.
+               If not activate the environment by typing in the terminal
+               source .streamlit_env/bin/activate (Mac/Linux)
+               .streamlit_env\Scripts\Activate.ps1 (Windows)
+
+    Mode:
+    Work in group.
 """
 import pickle
 import streamlit as st
