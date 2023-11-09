@@ -19,7 +19,7 @@ In the  __terminal__ type:
 ```bash
 streamlit run app.py
 ```
-🎉🥳 __You have build a streamlit [multipage web app](streamlit.md#multipage-apps)__ hosted locally 🥳🎉 and the only trick is to run __app.py__ and  create a folder named __pages__ containing other python scripts. Building a server, routing and providing the user with a graphical interface are done by Streamlit under the hood. You don't need to have any knowledge of Back-End and Front-End. In this example, we have inserted only one python file, __predict.py__, within pages. Use your web browser to interact with the web app at the url you find in the ouput of your terminal. In the sidebar you can see two links: __app__ and __predict__ but still the web-app looks like an empty canvas. 
+🎉🥳 __You have build a streamlit [multipage web app](streamlit.md#multipage-apps)__ hosted locally 🥳🎉 and the only trick is to run __app.py__ and  create a folder named __pages__ containing other python scripts. Building a server, routing and providing the user with a graphical interface are done by Streamlit under the hood. You don't need to have any knowledge of Back-End and Front-End. In this example, we have inserted only one python file, __predict.py__, within pages. Use your web browser to interact with the web app at the url you find in the ouput of your terminal. In the sidebar you can see two links: __app__ and __predict__ but still the web-app looks like an empty canvases. In the next tasks you can find snippet codes for drawing 🎨 on the __app canvas__. While keeping the web-app open in the browser, copy the snippet codes one at the time in the app.py file, save the file and check what changes occur in the web app.
 
 ## Task 3: Import Libraries
 
@@ -130,3 +130,5 @@ Visualize the penguin data on a map:
 st.subheader("🐧 Maps 🗺️📍")
 st.map(df)
 ```
+## Next 🗿 Milestone
+🎉 You have transformed a python script into a streamlit app🎉. You will continue drawing 🎨 with streamlit but on the 🔮[__predict canvas__](predict_st_tutorial.md)
