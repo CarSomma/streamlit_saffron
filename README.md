@@ -8,7 +8,7 @@ __🗿 Milestones 🪜 🎯👷🏽‍♀️__:
 2. [🔥🔥 2 Warm-Up Exercises 🔥🔥 on EDA 📊🌈 and  Deploy a Machine-Learning Model 🎓🤖](warmup_exercises/README.md)
 3. [⚡️📚 Quick Reading on Streamlit ⚡️📚](streamlit_exercise/streamlit.md)
 4. [Building a 🐧 Web-App with Streamlit: PART I](streamlit_exercise/EDA_st_tutorial.md)
-5. [Building a 🐧 Web-App with Streamlit: PART II](streamlit_exercise/penguins_st_tutorial.md)
+5. [Building a 🐧 Web-App with Streamlit: PART II](streamlit_exercise/predict_st_tutorial.md)
 
 ## Environment 🌀 and Installation 👩🏽‍🔧👨🏽‍🔧
 For __MacOs__/__Linux__ users
