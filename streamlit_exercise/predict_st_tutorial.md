@@ -12,3 +12,6 @@ You know what makes a good DS WebApp 🌶️🐠, so for the __predict__ web pag
 
 🎉Congratulations on creating your very own Penguin WebApp 🐧✨. It's impressive to see you set up a Multipage Streamlit app for EDA and predicting penguin body mass. 🚀👏
 
+## Where to go next 🎈?
++ [Release you App on Streamlit Cloud ☁️](https://streamlit.io/cloud)
++ [Read the Streamlit Blog 📚](https://blog.streamlit.io)
