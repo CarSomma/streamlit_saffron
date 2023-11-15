@@ -1,6 +1,8 @@
 # Learning Streamlit with Penguins 🐧 
 In the Pythonic realm 🐍👑  of data and machine learning web application frameworks Streamlit has been acquiring quite a lot of popularity. In fact, Streamlit is designed  to be incredibly user-friendly. You can create interactive web apps with just a few lines of Python code. It abstracts away much of the complexity involved in web development, making it accessible even to those without a web development background. 
 
+## How to use this repo 🛹
+Please fork this repo and then check the milestones list below.
 This repo will guide us step-by-step on building a 📊🧑🏽‍🔬DataScience Web Application 🧑🏽‍🔬📊 based on Streamlit. 
 
 __🗿 Milestones 🪜 🎯👷🏽‍♀️__:
@@ -10,8 +12,8 @@ __🗿 Milestones 🪜 🎯👷🏽‍♀️__:
 4. [Building a 🐧 Web-App with Streamlit: PART I](streamlit_exercise/EDA_st_tutorial.md)
 5. [Building a 🐧 Web-App with Streamlit: PART II](streamlit_exercise/predict_st_tutorial.md)
 
-## Environment 🌀 and Installation 👩🏽‍🔧👨🏽‍🔧
-### Prerequisite
+### Environment 🌀 and Installation 👩🏽‍🔧👨🏽‍🔧
+#### Prerequisite
 + Python 3.11.6 (We will use [pyenv](https://github.com/pyenv/pyenv#simple-python-version-management-pyenv) for Python Version Management but feel free to use any other tool)
 + Virtual environment (We will use the module venv from python but you can use any other tool)
 
@@ -44,14 +46,14 @@ pip install -r requirements.txt
 
 
 
-### 🧪 Test Streamlit Installation 👨🏽‍🔧👩🏽‍🔧
+#### 🧪 Test Streamlit Installation 👨🏽‍🔧👩🏽‍🔧
 You can check if Streamlit is installed correctly and run a sample app with the following command:
 ```bash
 streamlit hello
 ```
 This should open a Streamlit web app in your default web browser. 
 
-## Further Readings
+## Further Readings 📚
 The following is a list of other popular python web framework:
 + [Flask](https://flask.palletsprojects.com/en/3.0.x/)
 + [Django](https://www.djangoproject.com)
@@ -59,7 +61,7 @@ The following is a list of other popular python web framework:
 + [FastAPI](https://fastapi.tiangolo.com)
 
 ## Aknowledgment 🙏🏼
-I would like to thank [Dr. Paula González Avalos](https://github.com/pga99?tab=repositories) for introduce me into the Penguins and Streamlit worlds. 
+I would like to thank [Dr. Paula González Avalos](https://github.com/pga99?tab=repositories) for having introduced me into the Penguins and Streamlit worlds. 
 
 
 
