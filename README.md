@@ -65,4 +65,4 @@ I would like to thank [Dr. Paula González Avalos](https://github.com/pga99?tab=
 
 
 ## License
-[The MIT license](license.md)
+[The MIT license](LICENSE)
