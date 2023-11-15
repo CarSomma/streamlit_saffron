@@ -11,6 +11,11 @@ __🗿 Milestones 🪜 🎯👷🏽‍♀️__:
 5. [Building a 🐧 Web-App with Streamlit: PART II](streamlit_exercise/predict_st_tutorial.md)
 
 ## Environment 🌀 and Installation 👩🏽‍🔧👨🏽‍🔧
+### Prerequisite
++ Python 3.11.6 (We will use [pyenv](https://github.com/pyenv/pyenv#simple-python-version-management-pyenv) for Python Version Management but feel free to use any other tool)
++ Virtual environment (We will use the module venv from python but you can use any other tool)
+
+
 For __MacOs__/__Linux__ users
 ```bash
 # Sets the local Python version to 3.11.6 using pyenv
@@ -52,3 +57,9 @@ The following is a list of other popular python web framework:
 + [Django](https://www.djangoproject.com)
 + [Dash](https://dash.plotly.com)
 + [FastAPI](https://fastapi.tiangolo.com)
+
+## Aknowledgment 🙏🏼
+I would like to thank [Dr. Paula González Avalos](https://github.com/pga99?tab=repositories) for introduce me into the Penguins and Streamlit worlds. 
+
+
+
