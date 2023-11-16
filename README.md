@@ -14,14 +14,14 @@ __🗿 Milestones 🪜 🎯👷🏽‍♀️__:
 
 ### Environment 🌀 and Installation 👩🏽‍🔧👨🏽‍🔧
 #### Prerequisite
-+ Python 3.11.6 (We will use [pyenv](https://github.com/pyenv/pyenv#simple-python-version-management-pyenv) for Python Version Management but feel free to use any other tool)
++ Python 3.11.3 and above up to 3.11.6 (We will use [pyenv](https://github.com/pyenv/pyenv#simple-python-version-management-pyenv) for Python Version Management but feel free to use any other tool)
 + Virtual environment (We will use the module venv from python but you can use any other tool)
 
 
 For __MacOs__/__Linux__ users
 ```bash
-# Sets the local Python version to 3.11.6 using pyenv
-pyenv local 3.11.6 
+# Sets the local Python version to 3.11.3 using pyenv
+pyenv local 3.11.3 
 # Create a Virtual Environment named .streamlit_env using venv
 python -m venv .streamlit_env
 # Activate the Virtual Environment
@@ -34,8 +34,8 @@ For __Windows__ users
 
 
 ```bash
-# Sets the local Python version to 3.11.6 using pyenv
-pyenv local 3.11.6 
+# Sets the local Python version to 3.11.3 using pyenv
+pyenv local 3.11.3 
 # Create a Virtual Environment named .streamlit_env using venv
 python -m venv .streamlit_env
 # Activate the Virtual Environment
