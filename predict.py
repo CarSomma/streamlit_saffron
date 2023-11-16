@@ -19,7 +19,7 @@ import pandas as pd
 
 # Task1:
 # load the model
-with open("/pages/model_penguins.pkl", "rb") as file:
+with open("model_penguins.pkl", "rb") as file:
     model = pickle.load(file)
 print(model)
 
