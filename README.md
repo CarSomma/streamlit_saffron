@@ -60,7 +60,7 @@ The following is a list of other popular python web framework:
 + [Dash](https://dash.plotly.com)
 + [FastAPI](https://fastapi.tiangolo.com)
 
-## Aknowledgment 🙏🏼
+## Aknowledgments 🙏🏼
 I would like to thank [Dr. Paula González Avalos](https://github.com/pga99?tab=repositories) for having introduced me into the Penguins and Streamlit worlds. 
 
 
