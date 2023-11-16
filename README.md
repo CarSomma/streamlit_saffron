@@ -14,7 +14,7 @@ __🗿 Milestones 🪜 🎯👷🏽‍♀️__:
 
 ### Environment 🌀 and Installation 👩🏽‍🔧👨🏽‍🔧
 #### Prerequisite
-+ Python 3.11.3 and above up to 3.11.6 (We will use [pyenv](https://github.com/pyenv/pyenv#simple-python-version-management-pyenv) for Python Version Management but feel free to use any other tool)
++ Python 3.11.3 or above up to 3.11.6 (We will use [pyenv](https://github.com/pyenv/pyenv#simple-python-version-management-pyenv) for Python Version Management but feel free to use any other tool)
 + Virtual environment (We will use the module venv from python but you can use any other tool)
 
 
