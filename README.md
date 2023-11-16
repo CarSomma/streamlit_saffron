@@ -55,10 +55,11 @@ This should open a Streamlit web app in your default web browser.
 
 ## Further Readings 📚
 The following is a list of other popular python web framework:
-+ [Flask](https://flask.palletsprojects.com/en/3.0.x/)
 + [Django](https://www.djangoproject.com)
 + [Dash](https://dash.plotly.com)
++ [Flask](https://flask.palletsprojects.com/en/3.0.x/)
 + [FastAPI](https://fastapi.tiangolo.com)
+Both FastAPI and Flask are primarily focused on backend development for web applications.
 
 ## Aknowledgments 🙏🏼
 I would like to thank [Dr. Paula González Avalos](https://github.com/pga99?tab=repositories) for having introduced me into the Penguins and Streamlit worlds. 
