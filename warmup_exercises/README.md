@@ -7,7 +7,7 @@ Two guided fill-in blank exercises come and help you to achieve your 2nd 🗿Mil
 1. [EDA](#data-analysis-📈📊-on-palmerpenguins-🐧)
 2. [Model Prediction](#model-prediction-🔮-on-palmerpenguins-🐧)
 
-For both exercise we use data based on the [palmerpenguins dataset](https://allisonhorst.github.io/palmerpenguins/).
+For both exercises we use data based on the [palmerpenguins dataset](https://allisonhorst.github.io/palmerpenguins/).
 ![Here the penguins](../streamlit_exercise/penguins.png)
 
 ## Data Analysis 📈📊 On PalmerPenguins 🐧
