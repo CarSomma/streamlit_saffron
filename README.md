@@ -59,6 +59,7 @@ The following is a list of other popular python web framework:
 + [Dash](https://dash.plotly.com)
 + [Flask](https://flask.palletsprojects.com/en/3.0.x/)
 + [FastAPI](https://fastapi.tiangolo.com)
++ [Taipy](https://docs.taipy.io)
 <br>
 Both FastAPI and Flask are primarily focused on backend development for web applications.
 
