@@ -21,6 +21,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 
+# Set up pages name
+st.sidebar.page_link(page="app.py", label="Home", icon="🏠")
+st.sidebar.page_link(page="pages/predict.py", label="Oracle", icon="🔮")
+
 # Let's give a title
 st.title("Funfact about penguins🐧")
 

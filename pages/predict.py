@@ -21,7 +21,10 @@ import pandas as pd
 with open("pages/model_penguins.pkl", "rb") as file:
     model = pickle.load(file)
 
-
+# Set up pages name
+st.sidebar.page_link(page="app.py", label="Home", icon="🏠")
+st.sidebar.page_link(page="pages/predict.py", label="Oracle", icon="🔮")
+st.sidebar.markdown("---")
 
 st.title("How 'heavy' are penguins  🐧?")
 st.markdown('---')

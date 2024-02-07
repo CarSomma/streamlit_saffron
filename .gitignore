@@ -3,4 +3,4 @@
 .DS_STORE
 .ipy*
 .py*
-.stre*
+.streamlit_env*
