@@ -12,6 +12,18 @@ __🗿 Milestones 🪜 🎯👷🏽‍♀️__:
 4. [Building a 🐧 Web-App with Streamlit: PART I](streamlit_exercise/EDA_st_tutorial.md)
 5. [Building a 🐧 Web-App with Streamlit: PART II](streamlit_exercise/predict_st_tutorial.md)
 
+### Branches 🌱
+
+This repository contains several branches, each serving a different purpose:
+
+- **main**: This is the main branch and contains the step-by step guidance for building the streamlit app.
+- **streamlit_advanced**: Contains streamlit advanced concepts.
+
+- **solution_streamlit**: A branch with the solution for the Streamlit exercise.
+- **solution_excercise**: A branch with the solution for the EDA exercise related to the application.
+
+Feel free to explore the different branches.
+
 ### Environment 🌀 and Installation 👩🏽‍🔧👨🏽‍🔧
 #### Prerequisite
 + Python 3.11.3 or above up to 3.11.6 (We will use [pyenv](https://github.com/pyenv/pyenv#simple-python-version-management-pyenv) for Python Version Management but feel free to use any other tool)
@@ -62,6 +74,7 @@ The following is a list of other popular python web framework:
 + [Taipy](https://docs.taipy.io)
 <br>
 Both FastAPI and Flask are primarily focused on backend development for web applications.
+
 
 ## Aknowledgments 🙏🏼
 I would like to thank [Dr. Paula González Avalos](https://github.com/pga99?tab=repositories) for having introduced me into the Penguins and Streamlit worlds. 
