@@ -18,7 +18,7 @@ This Streamlit page demonstrates how to predict the weight of penguins and showc
 
 # Streamlit Sessions and Session State
 - Streamlit Sessions: When a user interacts with a Streamlit app, it creates a session. A session represents a single instance of interaction with the app, from the moment the user opens the app until they close it.
-- Session State: Streamlit's session state allows developers to store and manage session-specific data, such as user interactions and application state. This enables apps to remember user preferences, maintain state between interactions, and provide a personalized experience.
+- Session State: Streamlit's session state allows you to store and manage session-specific data, such as user interactions and application state. This enables apps to remember user preferences, maintain state between interactions, and provide a personalized experience.
 
 # Initialize session state for prediction count
 - Prediction Count: Initializes a session state variable 'prediction_count' if it does not already exist. This variable tracks the total number of predictions made during the session.
