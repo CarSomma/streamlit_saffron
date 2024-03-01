@@ -48,7 +48,7 @@ source .streamlit_env/bin/activate
 pip install -r requirements.txt
 ```
 
-For __Windows__ users
+For __Windows__ users with PowerShell CLI
 
 
 ```bash
@@ -58,6 +58,20 @@ pyenv local 3.11.3
 python -m venv .streamlit_env
 # Activate the Virtual Environment
 .streamlit_env\Scripts\Activate.ps1
+# Install Streamlit and Additional Libraries
+pip install -r requirements.txt
+```
+
+For __Windows__ users with GIT-BASH CLI
+
+
+```bash
+# Sets the local Python version to 3.11.3 using pyenv
+pyenv local 3.11.3 
+# Create a Virtual Environment named .streamlit_env using venv
+python -m venv .streamlit_env
+# Activate the Virtual Environment
+source .venv/Scripts/activate
 # Install Streamlit and Additional Libraries
 pip install -r requirements.txt
 ```
