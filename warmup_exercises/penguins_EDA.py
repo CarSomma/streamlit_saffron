@@ -30,26 +30,25 @@ import plotly.express as px
 ### Print out 5 random sample from df 
 ### (Hint: apply the function sample() on df)
 
-df = ...
-df_sample = ...
+df = pd.read_csv('./data/penguins_pimped.csv')
+df_sample = df.sample(5)
 
 print(df_sample)
 
 ### Task2:
 ### 2.1 Determine which unique islands are present in the data
 
-island = ...
+island = df['island'].unique() 
 
 print(island)
 
 ### 2.2 Display the data for an island you choose from the dataframe 
 
-my_island = ...
+my_island = "Dream"
 
 # uncomment line 50 and line 52
-#my_island_df = df[df[...] == ...]
-
-#print(my_island_df.head())
+my_island_df = df[df['island'] == my_island]
+print(my_island_df.head())
 
 
 
@@ -58,17 +57,16 @@ my_island = ...
 ### Display a scatterplot: bill_length_mm vs bill_depth_mm
 
 # uncomment from 62 to 71
+fig, ax = plt.subplots()
+ax = sns.scatterplot(
+    data=df,
+    x='bill_length_mm',
+    y='bill_depth_mm',
+    hue='species' # set to species
+    )
 
-# fig, ax = plt.subplots()
-# ax = sns.scatterplot(
-#     data=...,
-#     x=...,
-#     y=...,
-#     hue='species' # set to species
-#     )
-
-# plt.show()
-# plt.close(fig)
+plt.show()
+plt.close(fig)
 
 ### Click on X in the figure-window that pop up
 
@@ -76,5 +74,5 @@ my_island = ...
 ### Task4
 ### Determine the average of the bill_length_mm by species
 
-bill_length_mean = ...
+bill_length_mean = df.groupby('species')['bill_length_mm'].mean()
 print(bill_length_mean)
