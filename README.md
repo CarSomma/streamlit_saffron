@@ -71,7 +71,7 @@ pyenv local 3.11.3
 # Create a Virtual Environment named .streamlit_env using venv
 python -m venv .streamlit_env
 # Activate the Virtual Environment
-source .streamlit_venv/Scripts/activate
+source .streamlit_env/Scripts/activate
 # Install Streamlit and Additional Libraries
 pip install -r requirements.txt
 ```
