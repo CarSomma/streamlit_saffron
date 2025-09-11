@@ -26,7 +26,7 @@ This repository contains several branches, each serving a different purpose:
 - **streamlit_advanced**: Contains streamlit advanced concepts.
 
 - **solution_streamlit**: A branch with the solution for the Streamlit exercise.
-- **solution_excercise**: A branch with the solution for the EDA exercise related to the application.
+- **solution_exercise**: A branch with the solution for the EDA exercise related to the application.
 
 Feel free to explore the different branches.
 
