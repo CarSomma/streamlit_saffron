@@ -1,5 +1,5 @@
 """TODO
-   Exercise: Explore the penguins pimped dataset :-) by following 
+   Exercise: Explore the penguins geo dataset :-) by following 
    the tasks. The data exploration would be the base on which we build 
    the streamlit app.
 
@@ -25,12 +25,12 @@ import plotly.express as px
 ## Data exploration
 
 ### Task1:
-### Load the 'penguins_pimped.csv' file into a data frame df
+### Load the 'penguins_geo.csv' file into a data frame df
 ### (it is under the folder data/ )
 ### Print out 5 random sample from df 
 ### (Hint: apply the function sample() on df)
 
-df = pd.read_csv("./data/penguins_pimped.csv")
+df = pd.read_csv("./data/penguins_geo.csv")
 df_sample = df.sample(n=5)
 
 print(df_sample)
