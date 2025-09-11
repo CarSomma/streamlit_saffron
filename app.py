@@ -1,5 +1,5 @@
 """TODO
-   Excercise: Explore the penguins pimped dataset :-) by following 
+   Excercise: Explore the penguins geo dataset :-) by following 
    the tasks. The data exploration would be the base on which we build 
    the streamlit app.
 
@@ -33,7 +33,7 @@ st.image('penguins.png')
 st.markdown("This is the [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/) dataset that describes measurements on penguins")
 st.markdown("---")
 ## Let's create a section about data
-df = pd.read_csv("./data/penguins_pimped.csv")
+df = pd.read_csv("./data/penguins_geo.csv")
 df_sample = df.sample(n=5)
 
 st.header("Penguins 🐧 data")
