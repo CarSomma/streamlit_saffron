@@ -55,7 +55,7 @@ Load the penguins dataset and display a sample:
 
 ```python
 # Load the penguins dataset
-df = pd.read_csv("./data/penguins_pimped.csv")
+df = pd.read_csv("./data/penguins_geo.csv")
 
 # Display a sample of 5 random observations in the dataset
 df_sample = df.sample(n=5)
