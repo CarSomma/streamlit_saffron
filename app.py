@@ -55,8 +55,8 @@ st.image('penguins.png')
 st.markdown("This is the [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/) dataset that describes measurements on penguins")
 st.markdown("---")
 ## Let's create a section about data
-#df = pd.read_csv("./data/penguins_pimped.csv")
-df = load_data("./data/penguins_pimped.csv")
+#df = pd.read_csv("./data/penguins_geo.csv")
+df = load_data("./data/penguins_geo.csv")
 df_sample = df.sample(5, random_state=42)
 
 st.header("Penguins 🐧 data")
